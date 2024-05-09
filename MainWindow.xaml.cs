@@ -25,6 +25,7 @@ namespace SimpleWPFApp
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
             mainFrame.NavigationService.Navigate(new Uri("Page1.xaml", UriKind.Relative));
+            Console.WriteLine("guhhijij");
         }
     }
 }
